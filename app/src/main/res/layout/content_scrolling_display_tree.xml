@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.arinb.treecaching.ScrollingDisplayTree"
+    tools:showIn="@layout/activity_scrolling_display_tree">
+
+    <LinearLayout
+        android:id="@+id/treeInfoSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/treeImagesViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#333333"
+            />
+
+        <TextView
+            android:id="@+id/treeDescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeBarkHeadingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Bark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeBarkText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeTwigHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Twig"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeTwigText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeFruitHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Fruit"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeFruitText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeFlowerHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Flower"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeFlowerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeLeafHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Leaf"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeLeafText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeWoodHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Wood"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeWoodText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeFactsHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Facts"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeFactsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/treeReferencesHeaderText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="References"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/treeReferencesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Description"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
